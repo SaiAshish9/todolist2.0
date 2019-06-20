@@ -1,16 +1,26 @@
 {
   "name": "todolist2.0",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://saiashish9.github.io/todolist2.0",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "gh-pages": "^2.0.1",
     "mongoose": "^5.5.11"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaiAshish9/todolist2.0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SaiAshish9/todolist2.0/issues"
+  },
+  "description": ""
 }
